@@ -1,0 +1,65 @@
+body {
+  background-image: url(background1.jpg)  ;
+  background-size: 1920px 1080px;
+  background-repeat:no-repeat;
+  margin-top: 50px;
+}
+
+.contenitore{
+  background: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+nav{
+  text-align: center;
+}
+/* usa margin top sullo sfondo RGBA */
+.contenitore img{
+  margin-top: 60px;
+}
+
+h1 {
+  color: limegreen;
+  font-size: 30px;
+}
+
+.rettangolo{
+  background-color: limegreen;
+  width: 80%;
+  margin: auto;
+  padding: 1%;
+}
+
+.elenco{
+  margin-left: 9%;
+  color: white;
+}
+
+.elenco .stile{
+  font-size: 20px;
+}
+
+.batteria, .batteria1, .batteria2{
+  border-radius: 5px;
+}
+
+.elenco .batteria{
+  border: 10px solid #ffc107;
+  width: 30%;
+}
+
+.elenco .batteria1{
+  border: 10px solid #0ed50e;
+  width: 45%;
+}
+
+.elenco .batteria2{
+  border: 10px solid #d53131;
+  width: 10%;
+}
+
+div .batteria2 {
+  margin-bottom: 60px;
+}
